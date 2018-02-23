@@ -12,6 +12,10 @@ body{
     margin-bottom: 20px;
 }
 
+.sup_izq{
+    color: #222;
+}
+
 .sup_izq, .sup_der{
     display: inline;
     margin-left: 10px;
