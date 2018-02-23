@@ -10,10 +10,7 @@ body{
     font-size: 13px;
     margin-top: 15px;
     margin-bottom: 20px;
-}
-
-.sup_izq > a{
-    color: #000000de;
+    color: #222;
 }
 
 .sup_izq, .sup_der{
