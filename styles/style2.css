@@ -1,0 +1,181 @@
+body{
+    font-family: arial,sans-serif;
+    background-color: #fff;
+    color: #222;
+    min-width: 1100px;
+}
+
+.superior{
+    text-align: right;
+    font-size: 13px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+.sup_izq, .sup_der{
+    display: inline;
+    margin-left: 10px;
+}
+
+.sup_izq > a, .sup_der > img, .sup_der > button{
+    margin-left: 13px
+}
+
+.sup_der{
+    margin-right: 20px;
+}
+
+a.superior, .inf_izq a, .inf_der a{
+    text-decoration: none;
+}
+
+a.superior:hover, .inf_izq a:hover, .inf_der a:hover{
+    color: #808080;
+    text-decoration: underline;
+}
+
+.icono_grid{
+    vertical-align: middle;
+}
+
+.icono_grid:hover{
+    cursor: pointer;
+}
+
+.btnIniciar{
+    background-color: #4285f4;
+    border: 1px solid #4285f4;
+    border-radius: 2px;
+    color: #fff;
+    font-weight: bold;
+    padding: 6px 12px;
+}
+
+.content{
+    display: block;
+    height: 485px;
+}
+/* -------------------- */
+.cont_first{
+    text-align: center;
+}
+
+.logo{
+    margin-top: 130px;
+}
+/* -------------------- */
+.cont_second{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.cont_search{
+    box-shadow: 0px 1px 4px 0px #bebebe;
+    border-radius: 2px;
+    padding-left: 5px;
+    display: inline-block;
+}
+
+.cont_search:hover{
+    box-shadow: 0px 1px 4px 0px #a0a0a0;
+}
+
+.inp_search{
+    margin: 5px;
+    width: 520px;
+    height: 25px;
+    border: none;
+    font-size: 15px;
+    padding: 5px 5px;
+}
+
+.inp_search:focus{
+    outline: none;
+}
+
+.micro{
+    vertical-align: middle;
+    padding-right: 10px;
+}
+
+.micro:hover{
+    cursor: pointer;
+}
+/* -------------------- */
+.cont_third{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.cont_third input{
+    padding: 10px;
+    border: none;
+    border-radius: 2px;
+    font-weight: bold;
+    color: #757575;
+    background-color: #eeeeee;
+}
+
+.cont_third input:hover{
+    box-shadow: 1px 1px 1px 1px #bebebe;
+    color: #222;
+}
+
+.cont_fourth{
+    text-align: center;
+    font-size: small;
+    margin-top: 30px;
+}
+
+.cont_fourth::before{
+    content: 'Ofrecido por Google en: ';
+}
+
+.cont_fourth a{
+    color: #1a0dab;
+    text-decoration: none;
+}
+
+.cont_fourth a:hover{
+    text-decoration: underline;
+}
+
+/* -------------------- */
+.inferior{
+    font-size: small;
+    background-color: #f2f2f2;
+    border-top: 1px solid #e4e4e4;
+    padding-top: 30px;
+    line-height: 40px;
+    color: #808080;
+    text-align: center;
+}
+
+.inf_country{
+    font-size: 15px;
+    margin-left: 30px;
+    text-align: left
+}
+
+.inferior a{
+    color: #808080;
+}
+
+.inf_izq{
+    float: left;
+    padding-left: 27px;
+}
+
+.inf_izq > a{
+    padding-right: 20px;
+}
+
+.inf_der{
+    float: right;
+    padding-right: 27px;
+}
+
+.inf_der > a{
+    padding-left: 20px;
+}
