@@ -12,7 +12,7 @@ body{
     margin-bottom: 20px;
 }
 
-.sup_izq{
+.sup_izq > a{
     color: #000000de;
 }
 
